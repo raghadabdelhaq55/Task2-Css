@@ -7,7 +7,7 @@
 .header {
     display : flex;
     gap: 232.5px;
-
+    margin : 21.84px 165px;
 }
 
 .nav ul {
@@ -20,4 +20,18 @@
     display : flex;
     gap:24px;
     list-style : none;
+}
+
+.collection-section {
+    display : flex;
+    gap: 30px;
+    margin : 21.84px 165px;
+}
+
+.collection {
+    text-align : center;
+}
+
+h2 {
+    padding : 23px 0px;
 }
