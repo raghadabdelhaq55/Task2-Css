@@ -10,7 +10,7 @@
 }
 
 .container {
-  max-width: 1110px;   
+  max-width: 1400px;   
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -50,6 +50,10 @@
     }
     .menu {
         display : flex;
+
+    }
+    .logo {
+        margin-left : auto;
     }
 
 }
@@ -81,6 +85,7 @@ a {
 
   .collection {
     width: 100%;
+    
   }
 }
 
@@ -95,5 +100,7 @@ a {
     width: calc((100% - 60px) / 3);
   }
 }
+
+
 
 
