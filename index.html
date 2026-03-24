@@ -1,75 +1,541 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moon</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <div class="container">
-            <div class="row">
+      <div class="container">
+        <nav class="row">
+          <div class="menu">
+            <img src="./assets/IMGES/icons/listIcon.svg" alt="menu" />
+          </div>
 
-                      <div class="menu">
-                        <img src="./assets/IMGES/icons/listIcon.svg" alt="menu"/>
-                      </div>
+          <div class="logo">
+            <img src="./assets/IMGES/icons/logo.svg" alt="Moon Logo" />
+          </div>
 
-                <div class="logo">
-                    <img src="./assets/IMGES/icons/logo.svg" alt="Moon Logo">
-                </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#shop">Shop</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
 
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#shop">Shop</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-
-                <div class="icons">
-                    <ul>
-                        <li><img src="./assets/IMGES/icons/Search.svg" alt="Search"></li>
-                        <li><img src="./assets/IMGES/icons/Avatar.svg" alt="User"></li>
-                        <li><img src="./assets/IMGES/icons/Heart.svg" alt="Favorites"></li>
-                        <li><img src="./assets/IMGES/icons/Shopping cart.svg" alt="Cart"></li>
-                    </ul>
-                </div>
-
-            </div>
-            </
-        </div>
+          <div class="icons">
+            <ul>
+              <li>
+                <a href="#search">
+                  <img src="./assets/IMGES/icons/Search.svg" alt="Search" />
+                </a>
+              </li>
+              <li>
+                <a href="#user">
+                  <img src="./assets/IMGES/icons/Avatar.svg" alt="User" />
+                </a>
+              </li>
+              <li>
+                <a href="#favorites">
+                  <img src="./assets/IMGES/icons/Heart.svg" alt="Favorites" />
+                </a>
+              </li>
+              <li class="cart-icon">
+                <a href="#cart">
+                  <img
+                    src="./assets/IMGES/icons/Shopping cart.svg"
+                    alt="Cart"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <section class="collection-section">
-        <div class="container">
-            <div class="row">
-                 
-                <div class="collection">
-                    <img src="./assets/IMGES/table ware.png" alt="Table Ware">
-                    <h2>TABLEWARE</h2>
-                </div>
-
-                <div class="collection">
-                    <img src="./assets/IMGES/home_decor.png" alt="Home Decor">
-                    <h2>HOME DECOR</h2>
-                </div>
-
-                <div class="collection">
-                    <img src="./assets/IMGES/holi.png" alt="Holiday">
-                    <h2>HOLIDAY</h2>
-                </div>
-
-                <div class="collection">
-                    <img src="./assets/IMGES/collection2.png" alt="Collection">
-                    <h2>COLLECTION</h2>
-                </div>
-
-            </div>
-        </div>
+    <section class="hero">
+      <div class="hero-box">
+        <img src="./assets/IMGES/icons/Icon.svg" alt="icon" />
+        <p>Handcrafted in Viet Nam since 1650</p>
+        <h2>
+          BAT TRANG <br />
+          DINNER SET
+        </h2>
+        <button class="click" href="#">SHOP NOW</button>
+      </div>
     </section>
 
-</body>
+    <section class="collection-section">
+      <div class="container">
+        <div class="row">
+          <div class="collection">
+            <div class="collection-image">
+              <img
+                src="./assets/IMGES/collection/table ware.png"
+                alt="Table Ware"
+              />
+              <span class="badge">SALE</span>
+              <div class="collection-overlay">
+                <h2>TABLEWARE</h2>
+                <a href="#">details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection">
+            <div class="collection-image">
+              <img
+                src="./assets/IMGES/collection/home_decor.png"
+                alt="Home Decor"
+              />
+              <div class="collection-overlay">
+                <h2>HOME DECOR</h2>
+                <a href="#">details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection">
+            <div class="collection-image">
+              <img src="./assets/IMGES/collection/holi.png" alt="Holiday" />
+              <div class="collection-overlay">
+                <h2>HOLIDAY</h2>
+                <a href="#">details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection">
+            <div class="collection-image">
+              <img
+                src="./assets/IMGES/collection/collection2.png"
+                alt="Collection"
+              />
+              <div class="collection-overlay">
+                <h2>COLLECTION</h2>
+                <a href="#">details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sale-card">
+      <div class="container">
+        <div class="row">
+          <div class="sale-box">
+            <div class="sale-content">
+              <h2>
+                Up to 40% off our <br />
+                Christmas collection
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing
+                <br />eli mattis sit phasellus mollis sit aliquam sit nullam
+                <br />neque ultrices.
+              </p>
+              <button class="click2" href="#">SHOP NOW</button>
+            </div>
+            <div class="sale-image">
+              <img src="./assets/IMGES/sale-image.svg" alt="Sale Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="best-sellers products-section">
+      <h2>BEST SELLERS</h2>
+      <div class="container">
+        <div class="row">
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/mercer-grey-bowl.svg"
+                alt="Mercer Grey Bowl"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Small Ecru Ceramic Compote</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/holden-vase.svg"
+                alt="Holden Vase"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Warrick White Vase 14</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/e327c66bdd7299132da8f4531c54cda7.svg"
+                alt="Porcelain Dinner Plate"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Porcelain Dinner Plate</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/WarrickVase20inWhiteAVSSS22.svg"
+                alt="Warrick White Vase 20"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Warrick White Vase 20</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/OpheliaVase17inWhiteAVSSS22.svg"
+                alt="Ophelia Vase 17in White"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Rounded Dual Handled Vase</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/marin-blue-salad-plate.svg"
+                alt="Marin Blue Salad Plate"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Marin White Dinner Plate</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/alura-cream-tall-vase.svg"
+                alt="Alura Cream Tall Vase"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Tall Cream Ceramic Vase</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/best sellers/mercer-low-bowl.svg"
+                alt="Mercer Low Bowl"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Luana Bowl</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="content-box">
+            <h2>
+              Made in Viet Nam <br />
+              Since 1450
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing eli <br />
+              mattis sit phasellus mollis sit aliquam sit nullam neque <br />
+              ultrices.
+            </p>
+            <a href="#">LEARN MORE</a>
+          </div>
+
+          <div class="image-box">
+            <img
+              src="./assets/IMGES/about us/af3e811add737629ddbeb88b2fe3e24b.png"
+              alt="Pottery details"
+            />
+          </div>
+
+          <div class="image-box">
+            <img
+              src="./assets/IMGES/about us/pottery-wheel-process_600x600 1.png"
+              alt="Pottery making"
+            />
+          </div>
+
+          <div class="content-box">
+            <h2>Our History</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
+              phasellus mollis sit aliquam sit
+            </p>
+            <a href="#">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-arrivals products-section">
+      <div class="container">
+        <h2>DISCOVER NEW ARRIVALS</h2>
+        <div class="row">
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/new-arrivals/c4335f5f330dbeec64ad59bf6a0b4fd4.svg"
+                alt="Porcelain Dinner Plate"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Porcelain Dinner Plate</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/new-arrivals/valo-matte-white-vase.svg"
+                alt="Valo Matte White Vase"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Ophelia Matte Natural Vase</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/new-arrivals/julo-blue-salad-plate.svg"
+                alt="Valo Matte White Vase"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Porcelain Dinner Plate</h3>
+              <span class="price">$49.00</span>
+              <p class="description">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img
+                src="./assets/IMGES/new-arrivals/mercer-black-rim-bowl.svg"
+                alt="Mercedes Black Rim Bowl"
+              />
+            </div>
+
+            <div class="item-content">
+              <h3>Luana Bowl</h3>
+              <span class="price">$49.00</span>
+              <p class="description">Lorem ipsum dolor sit amet conse.</p>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-blog">
+      <h2>OUR BLOG</h2>
+      <div class="container">
+        <div class="row">
+          <div class="blog-box">
+            <div class="blog-content">
+              <span class="title">Tableware</span>
+              <h3>THE SECRETS TO A KITCHEN ROOM</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
+                phasellus mollis sit aliquam sit nullam neque ultrices.
+              </p>
+              <a href="#">READ MORE</a>
+            </div>
+
+            <div class="blog-image">
+              <img src="./assets/IMGES/blog-img.png" alt="Tableware blog" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sign-up">
+      <div class="container">
+        <div class="sign-up-box">
+          <span class="small-title">Sign up for emails</span>
+          <h2>FOR NEWS, COLLECTIONS & MORE</h2>
+
+          <form class="sign-up-form">
+            <input type="email" placeholder="Enter your email address" />
+            <button type="submit">SIGN UP</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-box">
+            <div class="footer-left">
+              <div class="footer-logo">
+                <img src="./assets/IMGES/logo.svg" alt="Moon logo" />
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur<br />
+                adipiscing elit aliquam mauris sed ma
+              </p>
+
+              <a href="#" class="footer-btn">GET STARTED → </a>
+            </div>
+
+            <div class="footer-right">
+              <div class="footer-column">
+                <h3>ABOUT US</h3>
+                <ul>
+                  <li><a href="#">Mission</a></li>
+                  <li><a href="#">Our team</a></li>
+                  <li><a href="#">Awards</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-column">
+                <h3>SERVICES</h3>
+                <ul>
+                  <li><a href="#">Web design</a></li>
+                  <li><a href="#">Web development</a></li>
+                  <li><a href="#">Mobile design</a></li>
+                  <li><a href="#">UI/UX design</a></li>
+                  <li><a href="#">Branding design</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-column">
+                <h3>PORTFOLIO</h3>
+                <ul>
+                  <li><a href="#">Corporate websites</a></li>
+                  <li><a href="#">E-commerce</a></li>
+                  <li><a href="#">Mobile apps</a></li>
+                  <li><a href="#">Landing pages</a></li>
+                  <li><a href="#">UI/UX projects</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            Copyright © 2023 Moon | All Rights Reserved |
+            <a href="#">Terms and Conditions</a> |
+            <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
