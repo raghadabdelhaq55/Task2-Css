@@ -394,6 +394,7 @@ a {
     background-color: #FFFFFF;
 }
 
+
 .products-section .row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -422,6 +423,10 @@ a {
     font-weight: 600;
     color: #3A3845;
     letter-spacing: 0%;
+}
+.products-section img{
+    width: 100%;
+    display: block;
 }
 
 .products-section .description {
